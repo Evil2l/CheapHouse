@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=1170" />
+	<title>Dom deshvle</title>
+	<meta name="description" content="Deshevle negde" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="shortcut icon" href="logo.jpg" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/styles/bootstrap.min.css" />
+	<link href="libs/styles/jquery.formstyler.css" rel="stylesheet" />
+
+	<link rel="stylesheet" href="libs/styles/owl.theme.css" />
+	<link rel="stylesheet" href="libs/styles/owl.carousel.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+<!--HEADER-->
+	<header>
+		<div class="container">
+			<div class="row relative">
+				<div class="top-mnu">
+					<img src="img/header_logo.jpg" alt="Logo"/>
+					<div class="header-phone">
+						<p>
+							<img src="img/phone_icon.png" alt="Call us"/>
+							+ 7 (495) <span>364 07 27</span>
+						</p>
+
+					</div>
+					<div class="navigation">
+						<ul class="header-mnu" >
+							<li><a href="#main">Главная</a></li>
+							<li><a href="#build-companies">Строительные компании</a></li>
+						</ul>
+						<ul class="js-menu">
+							<li><a class="scroll" href="#building">Строительсво</a></li>
+							<li><a class="scroll" href="#gallery">Наши работы</a></li>
+							<li><a class="scroll" href="#why-us">Информация</a></li>
+							<li><a class="scroll" href="#contact">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+<!--BANNER SLIDER-->
+	<div class="banner">
+		<div class="carousel-banner owl-theme">
+			<div class="item slide-one">
+				<h1>Хотите построить баню или парную?</h1>
+				<h2>Мы поможем вам с этим!</h2>
+				<a href="#call-back" class="sell-btn fancybox">Подробнее</a>
+			</div>
+			<div class="item slide-two">
+				<h1>Хотите построить дом?</h1>
+				<h2>Мы поможем вам с этим!</h2>
+				<a href="#call-back" class="sell-btn fancybox">Подробнее</a>
+			</div>
+		</div>
+		<div class="banner-nav-block">
+			<div class="banner-prev-button">
+				<img src="img/owl_navigate_icon.png" alt=""/>
+			</div>
+			<div class="banner-next-button">
+				<img src="img/owl_navigate_icon.png" alt=""/>
+			</div>
+		</div>
+	</div>
+<!-- PLAN	-->
+<div id="plan" class="plan">
+	<div class="container">
+		<div class="row relative">
+			<div class="col-xs-4">
+				<div class="plan-part">
+					<div class="img-part">
+						<img src="img/plan_1.png" alt=""/>
+					</div>
+					<div class="text-part">
+						<h5>
+							Добавить заявку
+						</h5>
+						<p>
+							<span>Оставьте заявку</span> и Вы получите 6-7 предложений с типовыми проектами и расчетами под Вашу площадь дома.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-4">
+				<div class="plan-part">
+					<div class="img-part">
+						<img src="img/plan_2.png" alt=""/>
+					</div>
+					<div class="text-part">
+						<h5>
+							Сравните предложения
+						</h5>
+						<ul>
+							<li>
+								Вы получите предложения <span>ТОЛЬКО</span> от тех стройфирм, которые специализируются на Вашем типе строительства.
+							</li>
+							<li>
+								У многих из них есть <span>СВОЕ ПРОИЗВОДСТВО, СВОИ ПРОЕКТЫ,</span> поэтому они предоставят более Низкую цену.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-4">
+				<div class="plan-part">
+					<div class="img-part">
+						<img src="img/plan_3.png" alt=""/>
+					</div>
+					<div class="text-part">
+						<h5>
+							Начните работу
+						</h5>
+						<p>
+							Сравнивая цены и проекты - Вы сможете выбрать <span>наиболее оптимальный вариант</span> и по цене и по проекту , сэкономив на строительстве дома
+
+						</p>
+						<h6>
+							до 25%.
+						</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- BUILDING	-->
+<div id="building" class="building">
+	<div class="container">
+		<div class="row relative ">
+			<input type="hidden" name="project_name" value="Dom dla vseh" >
+			<input type="hidden" name="admin_email" value="test4evil@yandex.ru" >
+			<input type="hidden" name="form_subject" value="Тема сообщения" >
+			<h3 class="title">
+				Оставьте заявку на строительство дома или бани
+			</h3>
+			<form class="form-block send-all">
+
+				<fieldset class="personal-data-form send-all">
+					<input type="hidden" name="project_name" value="Dom dla vseh" >
+					<input type="hidden" name="admin_email" value="test4evil@yandex.ru" >
+					<input type="hidden" name="form_subject" value="Тема сообщения" >
+					<h5>
+						* - Поля обязательные для заполнения
+					</h5>
+					<input id="personal-name" class="name" type="text" name="name" placeholder="Ваше имя:*" />
+						<!--<label for="personal-name">-->
+							<!--<img src="img/input_name.jpg" alt=""/>-->
+						<!--</label>-->
+					<input class="phone" id="personal-phone" type="text" name="phone" placeholder="Телефон для связи:*" />
+						<!--<label for="personal-phone">-->
+							<!--<img src="img/input_phone_bg.png" alt=""/>-->
+						<!--</label>-->
+					<input class="e-mail" id="personal-mail" type="text" name="e-mail" placeholder="E-mail " />
+						<!--<label for="personal-mail">-->
+							<!--<img src="img/input_mail.png" alt=""/>-->
+						<!--</label>-->
+					<input class="destination" id="personal-destination" type="text" name="destination" placeholder="Направление" />
+						<!--<label for="personal-destination">-->
+							<!--<img src="img/input_house.png" alt=""/>-->
+						<!--</label>-->
+					<textarea name="comments" id="" placeholder="Коментарий:">
+
+					</textarea>
+				</fieldset>
+				<fieldset class="build-choose">
+					<ul>
+						<li class="build-active " data-build="Dom"><img src="img/choose_house.png" alt=""/>Дом</li>
+						<li data-build="Bania"><img src="img/choose_bath.png" alt=""/>Баня</li>
+					</ul>
+					<input type="hidden" name="build-active" value="ddddddd" class="active-value" />
+				</fieldset>
+				<h3>
+					<img src="img/choose-material.png" alt=""/>
+					выбрать метериал и указать дополнительные требования
+				</h3>
+
+				<fieldset class="size">
+					<p>Жилая <br/> площадь</p>
+					<div class="size-fields">
+						<input type="text" name="min-value" placeholder="40" value="40"/> до <input type="text" name="max-value" placeholder="90" value="90"/> м<sup>2</sup>
+					</div>
+				</fieldset>
+				<h4>Тип материала:</h4>
+				<fieldset class="wood-types">
+					<div class="wood">
+						<div class="img-wrap">
+							<img src="img/wood_1.jpg" alt=""/>
+						</div>
+						<input id="wood-type-one" name="wood" value="Бревно" type="radio" checked/>
+						<label for="wood-type-one">Бревно</label>
+					</div>
+					<div class="wood">
+						<div class="img-wrap">
+							<img src="img/wood_2.jpg" alt=""/>
+						</div>
+
+						<input id="wood-type-two" name="wood" value="Оцилиндрованное бревно" type="radio"/>
+						<label for="wood-type-two">Оцилиндрованное бревно</label>
+					</div>
+					<div class="wood">
+						<div class="img-wrap">
+							<img src="img/wood_3.jpg" alt=""/>
+						</div>
+
+						<input id="wood-type-three" name="wood" value="Лафет" type="radio"/>
+						<label for="wood-type-three">Лафет</label>
+					</div>
+					<div class="wood">
+						<div class="img-wrap">
+							<img src="img/wood_4.jpg" alt=""/>
+						</div>
+
+						<input id="wood-type-four" name="wood" value="Брус" type="radio"/>
+						<label for="wood-type-four">Брус</label>
+					</div>
+					<div class="wood">
+						<div class="img-wrap">
+							<img src="img/wood_5.jpg" alt=""/>
+						</div>
+
+						<input id="wood-type-five" name="wood" value="Клееный брус" type="radio"/>
+						<label for="wood-type-five">Клееный брус</label>
+					</div>
+					<div class="wood">
+						<div class="img-wrap">
+							<img src="img/wood_6.jpg" alt=""/>
+						</div>
+
+						<input id="wood-type-six" name="wood" value="Профилированный брус" type="radio"/>
+						<label for="wood-type-six">Профилированный брус</label>
+					</div>
+
+
+				</fieldset>
+				<fieldset class="other-types">
+					<div class="other">
+						<div class="img-wrap">
+							<img src="img/other_type_1.png" alt=""/>
+						</div>
+
+						<input id="other-type-one" name="other" value="Газобетон" type="radio" checked/>
+						<label for="other-type-one">Пеноблок <br/> Газобетон <br/> Газосиликат</label>
+					</div>
+					<div class="other">
+						<div class="img-wrap">
+							<img src="img/other_type_2.png" alt=""/>
+						</div>
+
+						<input id="other-type-two" name="other" value="Кирпич" type="radio" />
+						<label for="other-type-two">Кирпич</label>
+					</div>
+					<div class="other">
+						<div class="img-wrap">
+							<img src="img/other_type_3.png" alt=""/>
+						</div>
+
+						<input id="other-type-three" name="other" value="Седвич-панели" type="radio"/>
+						<label for="other-type-three">Седвич-панели</label>
+					</div>
+					<div class="other">
+						<div class="img-wrap">
+							<img src="img/other_type_4.png" alt=""/>
+						</div>
+
+						<input id="other-type-four" name="other" value="Каркас" type="radio"/>
+						<label for="other-type-four">Каркас</label>
+					</div>
+				</fieldset>
+				<button class="form-btn" type="submit">Отправить заявку</button>
+			</form>
+		</div>
+	</div>
+</div>
+<!--SALE	-->
+<div class="sale">
+	<div class="container">
+		<div class="row relative">
+			<h2 class="title">
+				Дом Дешевле: строительство домов
+				под ключ - на заказ
+			</h2>
+			<div class="sale-btn-wrap">
+				<h3>
+					Акция!
+				</h3>
+				<p>
+					Последние скидки до <span>25%!</span>
+					Акция действует только до 2 марта!
+				</p>
+				<a class="a-btn fancybox" href="#call-back">Отправить заявку</a>
+			</div>
+			<div class="sale-img-wrap">
+				<img src="img/sale_img.jpg" alt="house-of-ur-dream"/>
+			</div>
+		</div>
+	</div>
+</div>
+<!--WHY-US	-->
+<div id="why-us" class="why-us">
+	<div class="container">
+		<div class="row relative">
+			<h2 class="title">
+				Почему строй <span>дешевле</span>?
+			</h2>
+			<div class="reasons">
+				<div class="col-xs-3">
+					<div class="reason">
+						<div class="img-wrap">
+							<img src="img/reason_1_img.png" alt=""/>
+						</div>
+
+						<p><span>Боллее 500 семей</span><br/> построились с нами</p>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="reason">
+						<div class="img-wrap">
+							<img src="img/reason_2_img.png" alt=""/>
+						</div>
+
+						<p>Вашу заявку рассмотрят сразу <span>до
+						20</span> ведущих строительных фирм Москвы и МО!</p>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="reason">
+						<div class="img-wrap">
+							<img src="img/reason_3_img.png" alt=""/>
+						</div>
+
+						<p>Низкие цены и отличное качество  <span>ГАРАНТИРОВАНЫ! 					</span></p>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="reason">
+						<div class="img-wrap">
+							<img src="img/reason_4_img.png" alt=""/>
+						</div>
+
+						<p>Просим Вас обязательно оставить заявку прямо сейчас!  <span>ЭТО БЕСПЛАТНО!</span></p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!--COMMENT-SLIDER	-->
+<div class="comment-slider">
+	<div class="container">
+		<div class="row relative">
+			<h2 class="title">
+				Отзывы <span>наших клиентов</span>
+			</h2>
+		</div>
+	</div>
+	<div class="carousel-comment owl-theme">
+		<div class="item">
+
+
+			<div class="container">
+				<div class="description">
+					<h3>
+						Большой каркасный дом
+					</h3>
+
+					<p>
+						Большой двухэтажный каркасный дом площадью 153,3 м. кв. Строительство дома было завершено в декабре 2011 года. Средняя цена на рынке: 1767200 руб. Мы подобрали фирму, которая построила за: 1412000 руб.
+					</p>
+					<p>
+						Большой двухэтажный каркасный дом площадью 153,3 м. кв. Строительство дома было завершено в декабре 2011 года. Средняя цена на рынке: 1767200 руб. Мы подобрали фирму, которая построила за: 1412000 руб.
+					</p>
+				</div>
+			</div>
+
+		</div>
+		<div class="item">
+
+			<div class="container">
+				<div class="description">
+					<h3>
+						Большой каркасный дом
+					</h3>
+
+					<p>
+						Большой двухэтажный каркасный дом площадью 153,3 м. кв. Строительство дома было завершено в декабре 2011 года. Средняя цена на рынке: 1767200 руб. Мы подобрали фирму, которая построила за: 1412000 руб.
+					</p>
+					<p>
+						Большой двухэтажный каркасный дом площадью 153,3 м. кв. Строительство дома было завершено в декабре 2011 года. Средняя цена на рынке: 1767200 руб. Мы подобрали фирму, которая построила за: 1412000 руб.
+					</p>
+				</div>
+			</div>
+
+		</div>
+		<div class="item">
+
+
+			<div class="container">
+				<div class="description">
+					<h3>
+						Большой каркасный дом
+					</h3>
+
+					<p>
+						Большой двухэтажный каркасный дом площадью 153,3 м. кв. Строительство дома было завершено в декабре 2011 года. Средняя цена на рынке: 1767200 руб. Мы подобрали фирму, которая построила за: 1412000 руб.
+					</p>
+					<p>
+						Большой двухэтажный каркасный дом площадью 153,3 м. кв. Строительство дома было завершено в декабре 2011 года. Средняя цена на рынке: 1767200 руб. Мы подобрали фирму, которая построила за: 1412000 руб.
+					</p>
+				</div>
+			</div>
+
+		</div>
+		<div class="item">
+
+			<div class="container">
+				<div class="description">
+					<h3>
+						Большой каркасный дом
+					</h3>
+
+					<p>
+						Большой двухэтажный каркасный дом площадью 153,3 м. кв. Строительство дома было завершено в декабре 2011 года. Средняя цена на рынке: 1767200 руб. Мы подобрали фирму, которая построила за: 1412000 руб.
+					</p>
+					<p>
+						Большой двухэтажный каркасный дом площадью 153,3 м. кв. Строительство дома было завершено в декабре 2011 года. Средняя цена на рынке: 1767200 руб. Мы подобрали фирму, которая построила за: 1412000 руб.
+					</p>
+				</div>
+			</div>
+
+		</div>
+		<div class="item">
+			<!--<div class="img-wrap">-->
+			<!--<img src="img/comment_slider_img.png" alt=""/>-->
+			<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+			<div class="container">
+				<div class="description">
+					<h3>
+						Большой каркасный дом
+					</h3>
+
+					<p>
+						Большой двухэтажный каркасный дом площадью 153,3 м. кв. Строительство дома было завершено в декабре 2011 года. Средняя цена на рынке: 1767200 руб. Мы подобрали фирму, которая построила за: 1412000 руб.
+					</p>
+					<p>
+						Большой двухэтажный каркасный дом площадью 153,3 м. кв. Строительство дома было завершено в декабре 2011 года. Средняя цена на рынке: 1767200 руб. Мы подобрали фирму, которая построила за: 1412000 руб.
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<!--GALLERY-->
+<div id="gallery" class="gallery">
+	<div class="container">
+		<div class="row relative">
+			<h2 class="title">
+				Наши работы
+			</h2>
+			<div class="gallery-block">
+				<div class="col-xs-4">
+					<a href="img/gallery_1_big.jpg" data-fancybox-group="group1" class="fancybox">
+						<img src="img/gallery_1.jpg" alt=""/>
+						<div class="hover-overlay">
+							<img src="img/loop_icon.png" alt=""/>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-4">
+					<a href="img/gallery_2_big.jpg" data-fancybox-group="group1" class="fancybox">
+						<img src="img/gallery_2.jpg" alt=""/>
+						<div class="hover-overlay">
+							<img src="img/loop_icon.png" alt=""/>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-4">
+					<a href="img/gallery_3_big.jpg" data-fancybox-group="group1" class="fancybox">
+						<img src="img/gallery_3.jpg" alt=""/>
+						<div class="hover-overlay">
+							<img src="img/loop_icon.png" alt=""/>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-4">
+					<a href="img/gallery_4_big.jpg" data-fancybox-group="group1" class="fancybox">
+						<img src="img/gallery_4.jpg" alt=""/>
+						<div class="hover-overlay">
+							<img src="img/loop_icon.png" alt=""/>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-4">
+					<a href="img/gallery_5_big.jpg" data-fancybox-group="group1" class="fancybox">
+						<img src="img/gallery_5.jpg" alt=""/>
+						<div class="hover-overlay">
+							<img src="img/loop_icon.png" alt=""/>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-4">
+					<a href="img/gallery_6_big.jpg" data-fancybox-group="group1" class="fancybox">
+						<img src="img/gallery_6.jpg" alt=""/>
+						<div class="hover-overlay">
+							<img src="img/loop_icon.png" alt=""/>
+						</div>
+					</a>
+				</div>
+			</div>
+			<a class="a-btn fancybox" href="#all-photos"> Посмотреть все работы </a>
+		</div>
+	</div>
+</div>
+<!--PARTNERS SLIDER-->
+<div class="partners">
+	<div class="container">
+		<div class="row relative">
+			<h2 class="title">
+				Наши подрядчики
+			</h2>
+			<div class="partners-block top">
+				<a href=""><img src="img/partner_1.jpg" alt=""/></a>
+				<a href=""><img src="img/partner_2.jpg" alt=""/></a>
+				<a href=""><img src="img/partner_3.jpg" alt=""/></a>
+				<a href=""><img src="img/partner_4.jpg" alt=""/></a>
+				<a href=""><img src="img/partner_5.jpg" alt=""/></a>
+				<a href=""><img src="img/partner_6.jpg" alt=""/></a>
+				<a href=""><img src="img/partner_7.jpg" alt=""/></a>
+				<a href=""><img src="img/partner_8.jpg" alt=""/></a>
+				<a href=""><img src="img/partner_9.jpg" alt=""/></a>
+				<a href=""><img src="img/partner_10.jpg" alt=""/></a>
+			</div>
+			<div class="partners-block bot">
+				<a href=""><img src="img/partner_11.jpg" alt=""/></a>
+				<a href=""><img src="img/partner_12.jpg" alt=""/></a>
+				<a href=""><img src="img/partner_13.jpg" alt=""/></a>
+				<a href=""><img src="img/partner_14.jpg" alt=""/></a>
+				<a href=""><img src="img/partner_15.jpg" alt=""/></a>
+				<a href=""><img src="img/partner_16.jpg" alt=""/></a>
+				<a href=""><img src="img/partner_17.jpg" alt=""/></a>
+				<a href=""><img src="img/partner_18.jpg" alt=""/></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--FOOTER-->
+<footer id="contact">
+	<div class="container">
+		<div class="row relative">
+			<div class="address">
+				<img src="img/address_icon.png" alt=""/>
+				<p>
+					М.О., Одинцовский район, посёлок ВНИИССОК,
+					ул. Дружбы, дом 3, оф. 301
+				</p>
+			</div>
+			<div class="e-mail">
+				<img src="img/email_icon.png" alt=""/>
+				<p>
+					nfo@dom-deshevle.com
+					3640727@bk.ru
+				</p>
+			</div>
+			<div class="footer-phone">
+				<img src="img/phone_icon.png" alt=""/>
+				<p>
+					+ 7 (495) <span>364 07 27</span>
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<!--end footer-->
+
+<!--FANCYBOX-->
+<div class="hidden">
+	<form action="#" id="call-back" class="send-all pop-form call-back-form ta-center">
+		<input type="hidden" name="project_name" value="Dom dla vseh" >
+		<input type="hidden" name="admin_email" value="test4evil@yandex.ru" >
+		<input type="hidden" name="form_subject" value="Тема сообщения" >
+		<h3 class="form-title">
+			Оставьте заявку
+		</h3>
+		<p>и наш менеджер свяжется с Вами
+			в ближайшее время</p>
+		<input class="name" type="text" name="name" placeholder="Введите Ваше имя" />
+		<input class="phone" type="text" name="phone" placeholder="Введите Ваш телефон" />
+
+		<input type="hidden" name="ttlval" class="ttlval"/>
+		<button class="form-btn" type="submit">Заказать</button>
+		<h6>
+			Ваши данные не будут переданы
+			третьим лицам
+		</h6>
+
+	</form>
+	<div id="thanks" class="ta-center">
+		<h5>
+			Спасибо!
+		</h5>
+		<p>Ваша заявка отправлена<br/>
+		ждите звонка
+		</p>
+	</div>
+
+</div>
+	<script src="libs/js/jquery-1.11.1.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/js/owl.carousel.min.js"></script>
+	<script src="libs/js/jquery.event.move.js"></script>
+	<script src="libs/js/jquery.malihu.PageScroll2id.js"></script>
+	<script src="libs/js/jquery.maskedinput.min.js"></script>
+	<script src="libs/js/jquery.formstyler.min.js"></script>
+	<script src="libs/js/jquery.validate.min.js"></script>
+	<script src="js/common.js"></script>
+
+</body>
+</html>
